@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Age Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Age Calculator</h2>
+        <p id="currDate"></p>
+        <label for="DOB">Enter your Date of Birth (dd/mm/yyyy):</label>
+        <input type="text" placeholder="dd/mm/yyyy" id="DOB">
+        <button id="CalcAge">Calculate Age</button>
+    </div>
+    
+    <div id="popupModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="age"></p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
