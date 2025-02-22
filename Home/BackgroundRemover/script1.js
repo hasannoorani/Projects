@@ -25,7 +25,7 @@ document.getElementById('removeBgBtn').addEventListener('click', async () => {
         const response = await fetch('https://api.remove.bg/v1.0/removebg', {
             method: "POST",
             headers: {
-               'X-Api-Key': ""
+               'X-Api-Key': "------"
             },
             body: formData,
         });
