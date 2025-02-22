@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Nav Bar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style1.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="banner">
+      <div class="navbar">
+        <img
+          src="logo.jpg"
+          style="border-radius: 50px 50px"
+          class="logo"
+          alt="Logo"
+        />
+        <div class="hamburger" onclick="toggleNav()">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="BackgroundRemover/index1.html">Img Remover</a></li>
+          <li><a href="PdfMergerSpiliter/index2.html">PDF Merger&Spiliter</a></li>
+          <li><a href="Imgtopdf/index3.html">Img to PDF Converter</a></li>
+
+        </ul>
+      </div>
+
+      <div class="content">
+        <h1>Quick Tools Hub</h1>
+        <p>
+          Simplify your digital tasks with our smart tools designed to make your
+          life easier and more productive.
+        </p>
+        <div class="buttons">
+          <a href="BackgroundRemover/index1.html" target="_blank"><button type="button">Img Background Remover</button></a>
+          <a href="PdfMergerSpiliter/index2.html" target="_blank"><button type="button">PDFMergerSplitter</button></a>
+          <a href="Imgtopdf/index3.html" target="_blank"><button type="button">Image to PDF Converter</button></a>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Contact Us -->
+        <div class="footer-section contact-us">
+          <h3>Contact Us</h3>
+          <p>Email: hn0786@gmail.com</p>
+          <p>Phone: +91-8264986590</p>
+          <p>Address: MANUU Campus, Hyderabad, India</p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-section quick-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index1.html">Img Remover</a></li>
+            <li><a href="index2.html">PDF Merger</a></li>
+            <li><a href="index3.html">ImgPDFConverter</a></li>
+          </ul>
+        </div>
+
+        <!-- Follow Us Section -->
+        <div class="footer-section follow-us">
+          <h3>Follow Us</h3>
+          <ul class="social-icons">
+            <li>
+              <a href="https://in.linkedin.com/" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://web.whatsapp.com/" class="social-icon">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/" class="social-icon">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p>Copyright © 2025 HN ®</p>
+    </footer>
+
+    <script>
+      function toggleNav() {
+        const navLinks = document.getElementById("navLinks");
+        navLinks.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>

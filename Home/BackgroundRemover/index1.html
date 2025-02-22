@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Removal</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Remove Background from Images</h1>
+        <div class="upload-section">
+            <input type="file" id="imageUpload" accept="image/*">
+            <button id="removeBgBtn">Remove Background</button>
+        </div>
+        <div class="output">
+            <div class="image-section">
+                <div>
+                    <h2>Original Image</h2>
+                    <img id="originalImage" alt="Original Image">
+                </div>
+                <div>
+                    <h2>Background Removed</h2>
+                    <img id="outputImage" alt="Output Image">
+                    <button id="downloadBtn" class="hidden">Download Image</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="button">
+      <a href="index.html"><button style="margin-top:400px;text-align: center; " id="downloadBtn" >Back Home</button></a>
+    </div>
+    <script src="script1.js"></script>
+</body>
+</html>

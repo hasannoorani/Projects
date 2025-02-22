@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('./img.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    width: 80%;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #f4f4f4;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+.upload-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+input[type="file"] {
+    padding: 10px;
+    border: 2px dashed #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #1d1d1d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #333;
+}
+.hidden {
+    display: none;
+}
+.image-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.image-section div {
+    flex: 1;
+    max-width: 48%;
+}
+.image-section h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.image-section img {
+    max-width: 100%;
+    max-height: 300px;
+    border: 1px solid #ddd;
+    background: #ddd;
+    color: #000;
+    border-radius: 8px;
+}
+body {
+    background-color: #0e0d0d; /* Dark Background */
+    color: #fff; /* White Text */
+}
+
+h1, h2 {
+    color: #fff;
+}
