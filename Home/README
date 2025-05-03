@@ -1,0 +1,25 @@
+🚀 Quick Tools Hub
+Quick Tools Hub is a free, all-in-one online toolkit that provides quick access to essential utilities like PDF merging, background removal, and image-to-PDF conversion — no login or installation required.
+
+🛠 Tech Stack
+Front-End: HTML, CSS, JavaScript
+API: remove.bg
+Libraries: PDFLib, PDF.js
+Development Environment: Visual Studio Code
+
+✨ Features
+🔄 PDF Merger/Splitter – Combine or separate PDFs easily
+🖼️ Image Background Remover – Remove backgrounds using AI
+🖨️ Image to PDF Converter – Convert images into PDFs in one click
+📱 Responsive Design – Works desktop
+🔐 No Login Required – Privacy-focused, no sign-up needed
+⚡ Fast Processing – Tools work instantly in-browser
+
+🧑‍💻 Usage
+Open the app in your browser
+Select any tool (PDF, Image, etc.)
+Upload your file
+Download the processed result instantly
+
+🤝 Contributing
+We welcome contributions! Please fork the repo and submit a pull request. For suggestions or bugs, open an issue.
